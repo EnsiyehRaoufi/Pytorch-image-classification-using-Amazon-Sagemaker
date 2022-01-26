@@ -18,6 +18,11 @@ https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip
 ### Access
 I uploaded the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. Before this you must attach approporiate s3 pollicy to your sagemaker execution role in the IAM section of the AWS. 
 
+The main description of the project is presented here:
+https://github.com/udacity/CD0387-deep-learning-topics-within-computer-vision-nlp-project-starter
+Thanks to Udacity for preparing this opportunity for us to learn through delivering valuable projects.
+
+
 ## Hyperparameter Tuning
 I used Resnet50 pretrained model that has a suitable size of download while has enough layers for prediction. It's easy to use through torchvision models Python package and is one the good models for image classification jos.I gave a continuous parameter of "learning rates" between 0.001 and 0.3, and a categorical parameter "batch size" of amounts 16, 32, 64  to a Pytorch estimator object. these ranges used for the hyperparameter searching and fine tuning the Resnet50 model with the dogBreed dataset. 
 
