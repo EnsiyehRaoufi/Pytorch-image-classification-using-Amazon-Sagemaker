@@ -1,1 +1,1 @@
-# Pytorch-mage-classification-using-Amazon-Sagemaker
+# Pytorch-image-classification-using-Amazon-Sagemaker
