@@ -108,7 +108,7 @@ A screenshot of the deployed active endpoint in Sagemaker.
 
 ##Attention 
 
-**You can also see many other screenshots from different steps of all the stages of the program in 3 zip folders "hpo-training-images", "profiling", and "deploy" that exist in this repository.**
+**You can also see many other screenshots from different steps of all the stages of the program in 3 folders "hpo-training-images", "profiling", and "deploy" that exist in this repository.**
 
 
 ## Standout Suggestions
